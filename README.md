@@ -13,20 +13,5 @@ Publish simple login npm package
 
 import { LoginForm }  from 'iblox-loginform-shared-components'
 
-function App() {
-
-  const handleLogin = (formData) => {
-    // Handle login logic for App1
-    console.log('App1 logged in with:', formData);
-  };
-
-  return (
-    <div className="App">
-       <h1>App 1 Login Page</h1>
-       <LoginForm onSubmit={handleLogin}/>
-    </div>
-  );
-}
-
-export default App;
+ <LoginForm onSubmit={handleLogin}/>
  
